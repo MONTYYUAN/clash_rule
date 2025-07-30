@@ -62,6 +62,8 @@ sniffer:
     - "+.v2ex.com"
   skip-domain:
     - "+.baidu.com"
+    - "+.cn" 
+    - "+.local"
 
 # 入站  
 tun:
