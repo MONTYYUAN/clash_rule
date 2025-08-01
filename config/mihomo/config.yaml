@@ -194,5 +194,5 @@ rule-providers:
   telegram_ip: { <<: *ip, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/telegram.mrs"}
   netflix_ip: { <<: *ip, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/netflix.mrs"}
   PT网站: { <<: *class, url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/PrivateTracker/PrivateTracker.list"}
-  Emby：{ <<: *class, url: "https://raw.githubusercontent.com/Repcz/Tool/X/Clash/Rules/Emby.list"} 
+  Emby: { <<: *class, url: "https://raw.githubusercontent.com/Repcz/Tool/X/Clash/Rules/Emby.list"} 
  # PT网站: { <<: *class, url: "https://fastly.jsdelivr.net/gh/blackmatrix7/ios_rule_script@refs/heads/master/rule/Clash/PrivateTracker/PrivateTracker.list"}
